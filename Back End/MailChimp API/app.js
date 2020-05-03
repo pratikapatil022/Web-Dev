@@ -24,11 +24,11 @@ app.post("/", (req, res) => {
             }
         ]
     }
-    const url = "https://us19.api.mailchimp.com/3.0/lists/0018a7251b"
+    const url = "https://usx.api.mailchimp.com/3.0/lists/"
     const jsonData = JSON.stringify(data);
     const options = {
         method: "POST",
-        auth: "pratik:f21513b45d72675d522fd343cbd7f5bf-us19"
+        auth: "pratik:"
     }
 
     const request = https.request(url, options, function (response) {
@@ -51,8 +51,3 @@ app.get("/", (req, res) => {
 app.listen(3000, () => {
     console.log("This Server Is On Bitches!!!!")
 })
-
-
-// api key - f21513b45d72675d522fd343cbd7f5bf-us19
-
-// audience id - 0018a7251b
