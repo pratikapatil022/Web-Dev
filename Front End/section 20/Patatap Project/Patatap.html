@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patatap</title>
+    <!-- <script src="js/patatap.js"></script> -->
+    <script type="text/javascript"" src=" paper-full.js"></script>
+    <link rel="stylesheet" href="css/patatap.css">
+    <script type="text/paperscript" canvas="myCanvas">
+        // Create a circle shaped path with its center at the center
+        // of the view and a radius of 30:
+        var circle = new Path.Circle({
+            center:(100,100),
+            radius: 30,
+            strokeColor: 'purple'
+        });
+        
+        circle.fillColor ='purple';
+
+        function onResize(event) {
+            // Whenever the window is resized, recenter the path:
+            circle.position = (100,200);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <canvas id="myCanvas" resize></canvas>
+
+</body>
+
+</html>

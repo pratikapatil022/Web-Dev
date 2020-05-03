@@ -1,0 +1,22 @@
+body {
+  background-color: #f5d9df;
+  font-family:Nunito;
+}
+/* nav {
+  background-color:#ff0066 ;
+} */
+#navbarmain .navbar-brand{
+    color: #ea1c2e;
+    
+}
+#navbarmain{
+  font-size:1.5rem;
+  font-weight:100;
+}
+
+#superman{
+  color:whitesmoke;
+}
+#superman:hover{
+  color: #ea1c2e;
+}

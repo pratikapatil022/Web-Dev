@@ -1,0 +1,30 @@
+
+p {
+	color:black;
+	text-align:center;
+	font-size:50px;
+	font-family: 'Liu Jian Mao Cao';
+	
+}
+table {
+	margin:auto; 
+}
+td { 
+	width: 100px;
+	height:100px;
+
+}
+/*td{
+	background:lightgrey;
+}*/
+.vertical {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.horizontal {
+	border-bottom: 2px solid black;
+	border-top:2px solid black;
+}
+#middle {
+	border:2px solid black;
+}
