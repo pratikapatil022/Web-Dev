@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post("/addLocation", function (req, res) {
     const cityName = req.body.location
-    const url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=adf4e9446cbce24145e9c6bad30c98ea&units=metric"
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid"
 
     https.get(url, function (response) {
         response.on("data", function (data) {
